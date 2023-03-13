@@ -13,6 +13,7 @@
 #include "modules/TextMessageModule.h"
 #include "modules/TraceRouteModule.h"
 #include "modules/WaypointModule.h"
+#include "modules/MyModule_1.h"
 #if HAS_TELEMETRY
 #include "modules/Telemetry/DeviceTelemetry.h"
 #endif
@@ -49,6 +50,8 @@ void setupModules()
 
         // Note: if the rest of meshtastic doesn't need to explicitly use your module, you do not need to assign the instance
         // to a global variable.
+
+        new MyModule_1();
 
         new RemoteHardwareModule();
         new ReplyModule();
