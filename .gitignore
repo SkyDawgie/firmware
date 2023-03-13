@@ -30,3 +30,6 @@ __pycache__
 venv/
 release/
 .vscode/extensions.json
+
+log_dev_cu.usbserial-51850163561
+log_dev_cu.usbserial-54350039291
